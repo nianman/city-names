@@ -1,6 +1,19 @@
-.input-form{
-  display:flex;
-  margin: 100px auto;
-  width: 500px;
+html{
+  background-color: #6D6D7C;
+}
+.App{
+  width: 993px;
+  margin: 0 auto;
+}
+.play-field{
+  background-image: url("img/field-background.png");
+  background-repeat: no-repeat;
+  width: 993px;
+  height: 568px;
+  margin: 0 auto;
+  display: flex;
   justify-content: space-between;
+}
+.logo{
+  margin: 10px 0 20px 0;
 }

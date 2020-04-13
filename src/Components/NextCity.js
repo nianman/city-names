@@ -1,20 +1,22 @@
 import React, {useContext} from 'react';
 import {DataContext} from '../Contexts/DataContext'
 import {AnswersContext} from "../Contexts/AnswersContext";
+import './Components.css'
+
 export default function NextCity() {
-    const citiesContext = useContext(DataContext);
     const {answer, addCity} = useContext(AnswersContext);
 
 
-    let first = answer[0];
     return(
-        <div>
+        <div className='list'>
 
 
-
+            List of used cities:
+            <ul className='list-box'>
             {answer.map((item, index)=>{
-                return(<li key={index}>{item}</li>)
+                return(<li className='list-item' key={index}>{item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()}</li>)
             })}
+            </ul>
         </div>
     )
 }

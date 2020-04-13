@@ -4195,8 +4195,10 @@ export default function DataContextProvider(props){
                 {"name" : "Baku"},
                 {"name" : "Nakhchivan"},
                 {"name" : "Quba"},
+                {"name" : "Ganja"},
                 {"name" : "Qusar"},
                 {"name" : "Sulutapa"},
+                {"name" : "Shaki"},
                 {"name" : "Sumqayit"},
                 {"name" : "Xirdalan"},
                 {"name" : "Zurges"}

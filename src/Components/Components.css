@@ -1,0 +1,150 @@
+.input{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+.input--next-city{
+    padding-left: 150px;
+    font-size: 33px;
+    font-family: Minecraft, sans-serif;
+    color: #2B2B3F;
+    font-stretch: condensed;
+    /*font-weight: bold;*/
+}
+.input-player{
+    font-size: 42px;
+    font-family: Minecraft, sans-serif;
+    color: #2B2B3F;
+    /*font-weight: bold;*/
+}
+.input-text{
+    font-size: 27px;
+    color: #505059;
+    /*font-weight: bold;*/
+    font-family: Minecraft, sans-serif;
+
+}
+.input-label{
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.form{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    height: 36px;
+}
+.form-input{
+    width: 60%;
+    font-size: 27px;
+    background-color: #DCDCE3;
+    border: none;
+    font-family: Minecraft, sans-serif;
+    color: #2B2B3F;
+}
+.form-submit{
+    color: #FDFDFF;
+    border: none;
+    width: 128px;
+    border-radius: 15px;
+    background-color: #2B2B3F;
+    font-size: 22px;
+    font-family: Minecraft, sans-serif;
+    text-align: center;
+}
+
+.list{
+    background-color: #B5B5C1;
+    width: 280px;
+    height: 420px;
+    margin: 65px 60px 0 0;
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: Minecraft, sans-serif;
+    color: #2B2B3F;
+    /*font-weight: bold;*/
+}
+.list-item{
+    list-style: none;
+    font-size: 20px;
+    padding: 2px 0 3px 0;
+    font-weight: 300;
+}
+.list-box{
+    margin-top: 20px;
+    padding: 0;
+    max-height: 320px;
+    overflow: auto;
+}
+.lives-player{
+    margin: 10px 0 6px 0;
+    font-family: Minecraft,sans-serif;
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #DCDCE3;
+}
+::-webkit-scrollbar-thumb {
+    background: #6D6D7C;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+.over{
+    text-align: center;
+    margin: 130px 0 0 50px;
+}
+.over-restart{
+    font-size: 43px;
+    margin: 0 0 30px 0;
+    font-family: Minecraft, sans-serif;
+    color: #2B2B3F;
+    font-weight: normal;
+    transition: font-weight 0.1s;
+}
+.over-restart:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.over-game{
+    font-size: 83px;
+    margin: 0 0 30px 0;
+    font-family: Minecraft, sans-serif;
+    color: #E75959;
+    text-shadow: -5px 5px #2B2B3F;
+}
+.over-player{
+    font-size: 37px;
+    margin: 0 0 30px 0;
+    font-family: Minecraft, sans-serif;
+    color: #2B2B3F;
+font-weight: normal;
+
+}
+.over-exit{
+    font-size: 33px;
+    margin: 0;
+    font-family: Minecraft, sans-serif;
+    font-weight: lighter;
+    color: #2B2B3F;
+    transition: 0.1s;
+}
+.over-exit:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.red-text{
+    color: #E52727;
+    font-weight: bolder;
+}
+*:focus {
+    outline: none;
+}

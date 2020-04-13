@@ -9,8 +9,11 @@ export default function AnswersContextProvider(props) {
         setAnswer([ param,...answer])
       //  console.log('answer', answer)
     }
+    function restart(e) {
+        setAnswer([]);
+    }
     return(
-        <AnswersContext.Provider value={{ answer,  addCity}}>
+        <AnswersContext.Provider value={{ answer,  addCity, restart}}>
             {props.children}
         </AnswersContext.Provider>
     )
